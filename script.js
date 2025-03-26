@@ -1,5 +1,6 @@
 // referencing the id named code-output in html
 let output = document.getElementById("code-output");
+
 //printing the value of output in the console
 console.log("output= ",output)
 
@@ -17,7 +18,7 @@ x = "john";
 const name = "Logan";
 
 // unable to change the name value to roman
-name = "roman"
+//name = "roman"
 
 // declaration of age
 let age;
@@ -25,4 +26,4 @@ let age;
 // initialization of age
 age = 33;
 
-output.innerHTML= name;
+output.innerHTML= x;
