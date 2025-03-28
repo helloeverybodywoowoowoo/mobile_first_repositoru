@@ -42,9 +42,9 @@ footer{
     height: 100%;
 }
 
-@media only screen and (min-width: 421px){
+@media only screen and (min-width: 21px){
     body{
-        background-color:antiquewhite;
+        background-color:indigo;
     }
 
     #sidebar{
@@ -64,6 +64,6 @@ footer{
 
 @media only screen and (min-width: 724px){
     body{
-        background-color:brown;
+        background-color:black;
     }
 }
