@@ -1,28 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> For Loop </title>
+        <title> Decoder </title>
         <link href="../style.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-
     <body>
         <div id="responsive">
-            <header> Mobile Responsive Header </header>
+            <header> Decoder Header </header>
             <nav>navMenu</nav>
             <div id="container">
                 <div id="sidebar"> sidebar </div>
-
                 <div id="inner-container"> inner-container
-                    <div> Enter word to remove its vowels.</div> <br>                
-                    <div id="output">What is your word: </div>
+                    <div> Enter word to decode : </div> <br>
                     <input type="text" id="word">
-                    <button id="button">submit</button> 
+                    <button id="button" onclick="encoder1()">submit</button>                 
                     <div id="code-output"></div>
                 </div>
             </div>
             <footer> mobileFooter </footer>
         </div>
-        <script src="for-loop.js"></script> 
+        <script src="decoder.js"></script> 
     </body>
 </html>

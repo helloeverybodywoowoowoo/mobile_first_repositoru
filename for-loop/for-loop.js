@@ -34,6 +34,26 @@ function reverseReverse(value){
     codeOutput.innerHTML += solution
 }
 
+function replaceGWithNineSwitch(word) {
+    let modifiedWord = "";
+    for (let i = 0; i < word.length; i++) {
+        switch (word[i]) {
+            case 'g':
+            case 'G': // Check for both lowercase and uppercase 'g'
+                modifiedWord += '9';
+                break;
+            default:
+                modifiedWord += word[i];
+        }
+    }
+    return modifiedWord;
+}
+
+// Example usage
+let inputWord = "giggle";
+let result = replaceGWithNineSwitch(inputWord);
+console.log("Original word:", inputWord);
+console.log("Modified word:", result);
 
 //event listerner to the button
 button.addEventListener('click', function(){
