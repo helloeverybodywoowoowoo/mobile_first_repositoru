@@ -7,9 +7,10 @@ console.log(button, " is the button.");
 
 // defines the function
 function encoder1(){
-    let value = input1.value;
-    console.log("INPUT IS: ", value);
+    let value_value = input1.value;
+    let value = value_value.toUpperCase();
 
+    console.log("INPUT IS: ", value);
 
     let len = value.length;
     console.log(" The word is ", len, " letters long.");
