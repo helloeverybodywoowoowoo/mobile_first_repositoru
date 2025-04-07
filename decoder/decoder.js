@@ -29,4 +29,14 @@ function encoder1(){
     output1.innerHTML = encodedValue; 
 }
 
+let input2=document.getElementById("word2");
+let button2 = document.getElementById("button2");
+let output2 = document.getElementById("code-output2");
+
+function decoder2{
+    let value = input2.value;
+    console.log("The word: ",value)
+    let len = value.length;
+    console.log("The variables length is ", len)
+}
 //function call
