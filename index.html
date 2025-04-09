@@ -9,7 +9,26 @@
     <body>
         <div id="responsive">
             <header> Mobile Responsive Header </header>
-            <nav>navmenu</nav>
+
+            <nav> 
+                <!-- pre click, folded in
+                hamburger only serves mobile -->
+                <div id="Hamburger" onclick="menu(this)">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                 <!-- post click, folded out
+                ul serves mobil and laptop -->
+                <ul id="menuitems">
+                    <li>Resume</li>
+                    <li>Education</li>
+                    <li>Mission</li>
+                    <li>Experience</li>
+                    <li>JS Lessons</li>
+                </ul>
+            </nav>
+
             <div id="container">
                 <div id="sidebar"> sidebar </div>
                 <div id="inner-container"> inner-container
