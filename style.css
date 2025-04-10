@@ -45,7 +45,7 @@ footer{
 }
 
 /* nav stuff from week 7 */
-ul {
+ul#menuitems{
     list-style-type: none;
     display: none;
     position: absolute;
@@ -71,11 +71,15 @@ ul {
     margin: 6px auto;
 }
 
-ul >li {
+ul#menuitems >li {
     background-color: azure;
-    width: 100px;
+    width: 250px;
 }
 
+ul#sidebaritems{
+    list-style-type: none;
+    padding:0;
+}
 
 @media only screen and (min-width: 21px){
     body{
