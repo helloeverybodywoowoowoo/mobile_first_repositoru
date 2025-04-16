@@ -71,11 +71,13 @@ ul#menuitems{
     margin: 6px auto;
 }
 
+/* week 7 shenenigans */
 ul#menuitems >li {
     background-color: azure;
     width: 250px;
 }
 
+/* week 7 shenenigans */
 ul#sidebaritems{
     list-style-type: none;
     padding:0;
