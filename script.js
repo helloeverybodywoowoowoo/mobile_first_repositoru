@@ -2,7 +2,7 @@
 let output = document.getElementById("code-output");
 
 //printing the value of output in the console
-console.log("output= ",output)
+//console.log("output= ",output)
 
 //declaration and initialization of the variable x with the value jordan
 let x = "Jordan";
@@ -26,5 +26,5 @@ let age;
 // initialization of age
 age = 33;
 
-output.innerHTML= x;
+//output.innerHTML= x;
 

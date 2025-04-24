@@ -5,9 +5,54 @@
     <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-<body>
-
-</body>
 </head>
+
+
+
+<body>
+    <div id="responsive">
+        <header> Mobile Responsive Header </header>
+
+        <nav> 
+            <!-- pre click, folded in
+            hamburger only serves mobile -->
+            <div id="Hamburger" onclick="menu(this)">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+             <!-- post click, folded out
+            ul serves mobil and laptop -->
+            <ul id="menuitems">
+                <li><a href="index.html"><button> H o m e </button></a></li>
+                <li>Mission</li>
+                <li>Education</li>
+                <li>Experience</li>
+                <li>API's</li>
+                <li><a href="javascript/javascript.html"><button> J.S. L E S S O N S</button></a></li>
+            </ul>
+            <h2 id="title"> KASH API </h2>
+        </nav>
+
+        <div id="container">
+            <div id="main">
+                <h2 >  </h2>
+                <div id="output"> 
+
+                </div>
+            </div>
+            <!-- FILL IN SOON -->
+        </div>
+
+        <footer> Mobile Footer 
+            <a href="#" class="fa fa-facebook" target="_blank"></a>
+            <a href="#" class="fa fa-twitter" target="_blank"></a>
+            <p>All Rights Reserved</p>
+        </footer>
+
+    </div>
+    <script src="../script.js"></script> 
+    <script src="../hamburger.js"></script>
+    <script src="api.js"></script> 
+</body>
 </html>
