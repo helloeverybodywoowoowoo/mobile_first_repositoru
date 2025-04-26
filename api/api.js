@@ -49,7 +49,7 @@ fetch("https://www.dnd5eapi.co/api/2014/monsters", requestOptions)
     console.log("The output is ", output)
     //output.append(result5)
     //output.append(result5.image)
-    for (let i = 0; i < 10; i++){
+    for (let i = 0; i < 50; i++){
         console.log("we are " , result5[i].image , " in the loop !!!@")
         //output.append(result5[i])      
         //output.innerHTML= result5
